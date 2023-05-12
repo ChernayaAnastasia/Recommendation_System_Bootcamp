@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Привет, Магнит, от Flask</title>
+<p>Привет, Магнит</p>
+<p>Здесь ты можешь загрузить файл в Docker и запустить модель</p>
+<h1>Загрузить файл:</h1>
+    <form method=post enctype=multipart/form-data action=/add_data>
+      <input type=file name=file>
+      <input type=submit value='Загрузить файл'>
+</form>
+<p>
+<form method=post enctype=multipart/form-data action=/start>
+      <input type=submit value='ЗАПУСТИТЬ МОДЕЛЬ'>
+</form>
